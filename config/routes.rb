@@ -1,4 +1,9 @@
 Ridemo::Application.routes.draw do
+<<<<<<< HEAD
+=======
+  get "welcome/index"
+
+>>>>>>> 9b0398c50e5c24d0e8901746d47e7f51cbb96b79
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -48,7 +53,11 @@ Ridemo::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
+<<<<<<< HEAD
   # root :to => "welcome#index"
+=======
+  root :to => "welcome#index"
+>>>>>>> 9b0398c50e5c24d0e8901746d47e7f51cbb96b79
 
   # See how all your routes lay out with "rake routes"
 
